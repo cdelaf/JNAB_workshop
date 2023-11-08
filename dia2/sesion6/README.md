@@ -57,11 +57,11 @@ Si el ouput del último comando (`sum`) es cero, continuar con
   - Extraer lista única de poblaciones: 
   `cut -d" " -f3 prefix_popID.ind | sort | uniq > unique.poplist`
   - Crear archivo de texto con los IDs de los individuos tempranos (3º columna archivo *.ind) usando `nano target.poplist`:
-
+```
   Chile_PuntaSantaAna_7300BP
   Chile_WesternArchipelago_Ayayema_4700BP
   Argentina_NorthTierradelFuego_LaArcillosa2_5800BP
-
+```
   - Generar lista de comparaciones:
   
   ```
