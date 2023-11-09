@@ -37,7 +37,7 @@ Correr `samtools mpileup` usando `sbatch`(script `1_mpileup.sbatch`)
 ## 2: pileupCaller
 
 Ejemplo:
-`pileupCaller --randomHaploid --sampleNames sample1,sample2,sample3,sample4 -–samplePopName pop1,pop2,pop3,pop4 -f southamerica_masked_subset_ID.snp -e genomas_antiguos.pileUp < genomas_antiguos.mpileup`
+`pileupCaller --randomHaploid --sampleNames sample1,sample2,sample3,sample4 -f southamerica_masked_subset_ID.snp -e genomas_antiguos.pileUp < genomas_antiguos.mpileup`
 
 `sampleNames` es una lista separada por , con el nombre de los individuos. Estos serán los nombres de individuos en el nuevo archivo eigenstrat *.ind. ¿A qué columna en el archivo *.ind corresponde?
 `–samplePopName` -> similar  `sampleNames`, pero aplicado a poblaciones. ¿A qué columna en el archivo *.ind corresponde?
